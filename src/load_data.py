@@ -10,3 +10,7 @@ json_data=pd.read_json('../data/raw/students_coffee_crisis.json', orient='record
 print("JSON data :")
 print(json_data.head())
 
+# Load Excel file
+excel_data=pd.read_excel('../data/raw/student_coffee_crisis.xlsx')
+print("Excel data :")
+print(excel_data.head())
