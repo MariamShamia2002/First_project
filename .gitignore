@@ -1,3 +1,4 @@
-data\
-temp\
-venv\
+data/
+temp/
+venv/
+raw/
